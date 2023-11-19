@@ -1,0 +1,72 @@
+[
+    {
+        "_id": 1,
+        "courseId": "RS101",
+        "name": "Assignment 1",
+        "startDate": "2023-10-21",
+        "endDate": "2023-10-25"
+    },
+    {
+        "_id": 2,
+        "courseId": "RS101",
+        "name": "Assignment 2",
+        "startDate": "2023-10-23",
+        "endDate": "2023-10-28"
+    },
+    {
+        "_id": 3,
+        "courseId": "RS102",
+        "name": "Assignment 1",
+        "startDate": "2023-10-18",
+        "endDate": "2023-10-23"
+    },
+    {
+        "_id": 4,
+        "courseId": "RS102",
+        "name": "Assignment 2",
+        "startDate": "2023-10-22",
+        "endDate": "2023-10-24"
+    },
+    {
+        "_id": 5,
+        "courseId": "RS103",
+        "name": "Assignment 1",
+        "startDate": "2023-10-16",
+        "endDate": "2023-10-21"
+    },
+    {
+        "_id": 6,
+        "courseId": "RS103",
+        "name": "Assignment 2",
+        "startDate": "2023-10-30",
+        "endDate": "2023-11-03"
+    },
+    {
+        "_id": 7,
+        "courseId": "RS104",
+        "name": "A1 - ENV + HTML",
+        "startDate": "2023-10-20",
+        "endDate": "2023-10-22"
+    },
+    {
+        "_id": 8,
+        "courseId": "RS104",
+        "name": "A2 - CSS + BOOTSTRAP",
+        "startDate": "2023-10-27",
+        "endDate": "2023-10-31"
+    },
+    {
+        "_id": 9,
+        "courseId": "RS105",
+        "name": "Assignment 1",
+        "startDate": "2023-10-22",
+        "endDate": "2023-10-28"
+    },
+    {
+        "_id": 10,
+        "courseId": "RS105",
+        "name": "Assignment 2",
+        "startDate": "2023-10-31",
+        "endDate": "2023-10-05"
+    }
+]
