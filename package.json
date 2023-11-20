@@ -3,7 +3,7 @@
   "name": "kanbas-node-server-app",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node app.js"
+    "start": "node --experimental-specifier-resolution=node app.js"
   },
   "dependencies": {
     "cors": "^2.8.5",
