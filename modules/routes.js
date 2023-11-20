@@ -1,4 +1,4 @@
-import db from "../Database/index.js";
+import db from "../Database/index.cjs";
 function moduleRoutes(app) {
     app.put("/api/modules/:mid", (req, res) => {
         const { mid } = req.params;
