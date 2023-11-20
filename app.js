@@ -1,6 +1,6 @@
 import express from 'express';
 import Hello from "./hello.js";
-import Lab5 from "./lab5.js";
+import lab5 from "./lab5.js";
 import cors from "cors";
 import CourseRoutes from "./courses/routes.js";
 import ModuleRoutes from "./modules/routes.js";
@@ -12,5 +12,5 @@ app.use(cors());
 CourseRoutes(app);
 ModuleRoutes(app);
 Hello(app);
-Lab5(app);
+lab5(app);
 app.listen(process.env.PORT || 4000);
