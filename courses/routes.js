@@ -1,5 +1,5 @@
 import Database from "../Database/index.js";
-function CourseRoutes(app) {
+function courseRoutes(app) {
   app.get("/api/courses/:id", (req, res) => {
     const { id } = req.params;
     const course = Database.courses
@@ -38,4 +38,4 @@ function CourseRoutes(app) {
     res.send(courses);
   });
 }
-export default CourseRoutes;
+export default courseRoutes;

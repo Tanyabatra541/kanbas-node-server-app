@@ -1,5 +1,5 @@
 import db from "../Database/index.js";
-function ModuleRoutes(app) {
+function moduleRoutes(app) {
     app.put("/api/modules/:mid", (req, res) => {
         const { mid } = req.params;
         const moduleIndex = db.modules.findIndex(
@@ -36,4 +36,4 @@ function ModuleRoutes(app) {
         res.send(modules);
     });
 }
-export default ModuleRoutes;
+export default moduleRoutes;

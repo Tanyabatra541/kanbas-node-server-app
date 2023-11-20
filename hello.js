@@ -1,4 +1,4 @@
-const Hello = (app) => {
+const hello = (app) => {
     app.get('/hello', (req, res) => {
         res.send('Life is good!!')
     });
@@ -6,4 +6,4 @@ const Hello = (app) => {
         res.send('Welcome to Full Stack Development!')
     });
 }
-export default Hello;
+export default hello;
