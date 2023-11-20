@@ -13,7 +13,7 @@ const assignment = {
   score: 5,
 };
 
-const Lab5 = (app) => {
+const lab5 = (app) => {
   app.get("/a5/welcome", (req, res) => {
     res.send("Welcome to Assignment 5");
   });
@@ -128,4 +128,4 @@ const Lab5 = (app) => {
   });
 
 };
-export default Lab5;
+export default lab5;
