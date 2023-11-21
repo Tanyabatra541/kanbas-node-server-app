@@ -3,14 +3,14 @@ function moduleRoutes(app) {
     app.put("/api/modules/:mid", (req, res) => {
         const { mid } = req.params;
         const moduleIndex = db.modules.findIndex(
-          (m) => m._id === mid);
+            (m) => m._id === mid);
         db.modules[moduleIndex] = {
-          ...db.modules[moduleIndex],
-          ...req.body
+            ...db.modules[moduleIndex],
+            ...req.body
         };
         res.sendStatus(204);
-      });
-    
+    });
+
 
     app.delete("/api/modules/:mid", (req, res) => {
         const { mid } = req.params;
