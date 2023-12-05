@@ -15,7 +15,7 @@ import "dotenv/config";
 import session from "express-session";
 
 const app = express();
-app.use(express.json());
+
 app.use(
   cors({
     credentials: true,
@@ -41,6 +41,8 @@ else{
   };
 }
 app.use(session(sessionOptions));
+
+app.use(express.json());
 
 courseRoutes(app);
 moduleRoutes(app);
